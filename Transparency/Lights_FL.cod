@@ -1,0 +1,24 @@
+//
+// FX Version: fx_5_0
+//
+// 3 local buffer(s)
+//
+cbuffer cbNeverChanges : register(b0)
+{
+    float4x4 View;                      // Offset:    0, size:   64
+    float4  eye;                        // Offset:   64, size:   16
+    float4  target;                     // Offset:   80, size:   16
+    LightDesc lights[10];               // Offset:   96, size: 1120
+}
+
+cbuffer cbChangeOnResize : register(b1)
+{
+    float4x4 Projection;                // Offset:    0, size:   64
+}
+
+cbuffer cbChangesEveryFrame : register(b2)
+{
+    float4x4 World;                     // Offset:    0, size:   64
+    MaterialInfo colour;                // Offset:   64, size:   48
+}
+

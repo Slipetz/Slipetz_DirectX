@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{b88225af-f62e-4cc8-9b11-56fc29f711fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CVector">
+      <UniqueIdentifier>{73e47b9e-b2b9-42c2-a323-c259cbf491e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPly">
+      <UniqueIdentifier>{ab10b8ec-fd4c-4732-85d7-973d13228ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CObject">
+      <UniqueIdentifier>{3537101a-baa2-4444-830f-3c40ec4b8535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CHRTimer">
+      <UniqueIdentifier>{9270c564-79fc-4a1f-94b4-a1c8470cf3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CConsole">
+      <UniqueIdentifier>{de67ae92-95d3-42be-be30-ae9a35bfaa20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{a48595c6-b5db-48e2-9cfd-51dec4f4a505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMesh">
+      <UniqueIdentifier>{375be47e-4d87-4009-a5ff-364e7bcd8d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{0856736f-2378-4258-9387-768ab9090387}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InitDirectXAndCreateWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CVector3f.cpp">
+      <Filter>CVector</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlyFile5nt_DX11.cpp">
+      <Filter>CPly</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlyInfo.cpp">
+      <Filter>CPly</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadModelIntoBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>CObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CHRTimer.cpp">
+      <Filter>CHRTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulationStep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CConsole.cpp">
+      <Filter>CConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadAndPrepareShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CMesh.cpp">
+      <Filter>CMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CVector3f.h">
+      <Filter>CVector</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlyFile5nt_DX11.h">
+      <Filter>CPly</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlyInfo.h">
+      <Filter>CPly</Filter>
+    </ClInclude>
+    <ClInclude Include="CHRTimer.h">
+      <Filter>CHRTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="CConsole.h">
+      <Filter>CConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="CMesh.h">
+      <Filter>CMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Sky.fx">
+      <Filter>Shaders</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LightHelper.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CubeMap.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="OneLightOneTexture.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="MultipleTextures.fx">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
